@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "sporting grotesque", "sans-serif";
+    background-color: #fff6e5;
+}
