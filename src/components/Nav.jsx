@@ -7,14 +7,16 @@ export default function Nav() {
                     MoneyBuddy
                 </span>
             </div>
-            <div className="flex ml-auto">
-                <ul className="self-center flex gap-8 text-[15px]">
+            <div className="flex ml-auto font-sfui tracking-[0.07em]">
+                <ul className="self-center flex gap-8 text-[15px] pr-5">
                     <li>Courses</li>
                     <li>Success Stories</li>
                     <li>Community</li>
                     <li>About us</li>
                 </ul>
-                <button className="pl-8">Login</button>
+                <button className="px-6 bg-[#C5B1FF] border-solid border-2 border-[#6E4CD1] shadow-neu">
+                    Login
+                </button>
             </div>
         </div>
     );
